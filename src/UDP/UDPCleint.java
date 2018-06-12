@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class UDPCleint {
     public static void main(String[] args) throws IOException {
         try {
-            System.out.println("The cleint is starting.");
+            System.out.println("The client is starting.");
             DatagramSocket socket = new DatagramSocket();
             System.out.println("Enter your message");
             Scanner input = new Scanner(System.in);
